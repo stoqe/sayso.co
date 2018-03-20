@@ -1,2 +1,2 @@
-# saysoclothes.com
+# sayso.co
 Clothes worth Wearing
