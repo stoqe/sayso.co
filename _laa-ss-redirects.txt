@@ -1,0 +1,6 @@
+/booking-1 -> /booking 301
+/booking-1/ -> /booking 301
+/booking-1/abbotsford -> /booking/abbotsford 301
+/booking-1/thornbury -> /booking/thornbury 301
+/sydney/ -> /newtown 301
+/www.lentilasanything.com -> / 301
