@@ -1,43 +1,23 @@
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
+# dependecies installed by npm
+node_modules
+web_modules
 
-# Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
+# build artefacts
+src/_site
+dist
 
-# Logs and databases #
-######################
+# secrets
+.env
+
+# logs
 *.log
-*.sql
-*.sqlite
+report.html
 
-# OS generated files #
-######################
+# macOS related files
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
 
-# More #
-######################
-prepros-6.config
-*.pdf
-_*/*
+# version manager
+.tool-versions
+
+# Local Netlify folder
+.netlify
