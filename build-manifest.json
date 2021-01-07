@@ -1,0 +1,44 @@
+{
+  "inputs": {
+    "styles/index.css": {
+      "bytes": 42955,
+      "imports": []
+    },
+    "web_modules/alpinejs.js": {
+      "bytes": 77125,
+      "imports": []
+    },
+    "scripts/index.js": {
+      "bytes": 389,
+      "imports": [
+        {
+          "path": "web_modules/alpinejs.js"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../node_modules/.cache/snowpack/~~bundle~~/styles/index.css": {
+      "imports": [],
+      "inputs": {
+        "styles/index.css": {
+          "bytesInOutput": 29350
+        }
+      },
+      "bytes": 29351
+    },
+    "../node_modules/.cache/snowpack/~~bundle~~/scripts/index.js": {
+      "imports": [],
+      "exports": [],
+      "inputs": {
+        "web_modules/alpinejs.js": {
+          "bytesInOutput": 26929
+        },
+        "scripts/index.js": {
+          "bytesInOutput": 180
+        }
+      },
+      "bytes": 27110
+    }
+  }
+}
